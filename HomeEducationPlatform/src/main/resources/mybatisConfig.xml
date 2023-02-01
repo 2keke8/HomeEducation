@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<mappers>
+		<mapper resource="com/education/mapper/AdminDAOMapper.xml"/>
+		<mapper resource="com/education/mapper/StudentDAOMapper.xml"/>
+		<mapper resource="com/education/mapper/CommonDAOMapper.xml"/>
+		<mapper resource="com/education/mapper/ParentDAOMapper.xml"/>
+		<mapper resource="com/education/mapper/TnoticeDAOMapper.xml"/>
+		<mapper resource="com/education/mapper/LoginLogDAOMapper.xml"/>
+		<mapper resource="com/education/mapper/TcommentDAOMapper.xml"/>
+		<mapper resource="com/education/mapper/TnewsDAOMapper.xml"/>
+	</mappers>
+</configuration>
